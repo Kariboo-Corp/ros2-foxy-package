@@ -1,7 +1,7 @@
-# Vacuum Bot
+# package_name
 
 ## Purpose of this software
-This ROS2 Foxy package is used to convert a random vacuum robot into an over-engineered futuristic vacuum robot.
+This ROS2 Foxy template package is used to create new package and new robot. It's used to avoid blank page problems.
 
 ## Disclaimer
 This project is under developpement and may change according to my ideas.
