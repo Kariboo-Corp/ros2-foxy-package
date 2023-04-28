@@ -2,7 +2,9 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
     <xacro:include filename="inertial_macros.xacro"/>
-    
+
+    <!-- Materials definition -->
+
     <material name="white">
         <color rgba="1 1 1 1"/>
     </material>

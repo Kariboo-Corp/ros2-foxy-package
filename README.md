@@ -13,14 +13,14 @@ To run this package you will need ROS 2 Foxy installed on your system. You may c
 source /opt/ros/foxy/setup.bash
 
 cd ~
-mkdir -p vacuum_ws/src
-cd vacuum_ws/src
-git clone https://github.com/EG-Julien/vacuum_bot.git
+mkdir -p dev_ws/src
+cd dev_ws/src
+git clone https://github.com/aiRCS_Lab/ros2-foxy-package.git
 cd ../
 colcon build --symlink-install
 source install/setup.bash
 
-ros2 launch vacuum_bot rsp.launch.pyvac
+ros2 launch package_name rsp.launch.pyvac
 ```
 
 If you now open RViz you should see the robot.
